@@ -1,0 +1,331 @@
+/*
+ * Estilos de tu proyecto
+ */
+body {
+   font-family: 'Lato', sans-serif;
+   margin: 0 auto;
+   overflow-x: hidden; /*Controla el comportamiento de los contenidos que no caben en su elemento contenedor*/
+}
+.BarraFija {
+  background-color: #2c3e50;
+  width: 1320px;
+  height: 100px;
+  display: inline-block;
+  /*position: fixed*/
+}
+.link1 {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 35px;
+  font-weight: 900;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.list1, .list2, .list3 {
+  display: inline-block;
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 35px;
+  float: left;
+}
+.list1 {
+  margin-left: 500px;
+}
+.list2 {
+  margin-left: 30px;
+}
+.list3 {
+  margin-left: 30px;
+}
+.list1 {
+  color: white;
+}
+.itemlist,.list1 a:hover{
+  color: #18bc9c;
+}
+.itemlist,.list2 a:hover{
+  color: #18bc9c;
+}
+.itemlist,.list3 a:hover{
+  color: #18bc9c;
+}
+.cabecera {
+  background-color: #18bc9c;
+  padding-top: 700px;
+}
+.imagen1 {
+  position: relative;
+  margin-left: 510px;
+  margin-top: -600px;
+}
+.title1, .text2 {
+  color: white;
+}
+.title1 {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 80px;
+  font-weight: 900;
+  margin-left: -245px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/*.izqLine, .fa-star, .derLine {
+  display: inline-block;
+}*/
+.izqLine {
+  width: 100px;
+  border: 3px solid white;
+  margin-bottom: -26px;
+  margin-left: -1px
+}
+.fa-star {
+  font-size: 30px;
+  color: white;
+  margin-left: 115px;
+  margin-top: 10px;
+}
+.derLine {
+  width: 100px;
+  border: 3px solid white;
+  margin-left: 150px;
+  margin-top: -20px;
+}
+.text2 {
+  font-size: 27px;
+  font-weight: normal;
+  margin-left: -228px;
+}
+/*.text3, .izqLine1, .derLine1 {
+  color: #2c3e50;
+}*/
+.text3{
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  color: #212529;
+  font-size: 50px;
+  font-weight: 700;
+  margin-left: 500px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.izqLine1 {
+  width: 100px;
+  border: 3px solid #2c3e50;
+  margin-bottom: -26px;
+  margin-left: 660px
+}
+.Portfolio .fa-star{ /*Estrella 2 no se cambia de color*/
+  color: #2c3e50;
+  font-size: 30px;
+  margin-left: 627px;
+  margin-top: 10px;
+}
+.derLine1 {
+  width: 100px;
+  border: 3px solid #2c3e50;
+  margin-left: 515px;
+  margin-top: -20px;
+}
+.cuadro1 img {
+  width: 350px;
+  height: 250px;
+  margin-left: 57px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.About {
+  background-color: #18bc9c;
+  padding-top: 630px;
+  margin-top: 100px;
+}
+.text4 {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  margin-left: 550px;
+  margin-top: -530px;
+  margin-bottom: 30px;
+}
+.izqLine2 {
+  width: 100px;
+  border: 3px solid white;
+  margin-bottom: -26px;
+  margin-left: 514px;
+}
+.About .fa-star {
+  font-size: 30px;
+  color: white;
+  margin-left: 626px;
+  margin-top: 10px;
+}
+.derLine2 {
+  width: 100px;
+  border: 3px solid white;
+  margin-left: 660px;
+  margin-top: -20px;
+}
+/*.parrafo1, .parrafo2 {
+  display: inline;
+}*/
+.parrafo1 {
+  width: 300px;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: justify;
+  color: white;
+  margin-left: 300px;
+  margin-top: 40px;
+}
+.parrafo2 {
+  width: 300px;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: justify;
+  color: white;
+  margin-left: 680px;
+  margin-top: -230px;
+}
+/*.fa-download, .descarga {
+  border-radius: 5px
+}*/
+.fa-download {
+  font-size: 20px;
+  color: white;
+  margin-left: 10px;
+  margin-top: 20px;
+  padding-bottom: 15px;
+}
+.descarga {
+  font-size: 20px;
+  font-weight: normal;
+  color: white;
+  margin-left: 33px;
+  margin-top: -40px;
+  padding-bottom: 15px;
+}
+.rectangulo {
+  border-radius: 10px 10px 10px 10px;
+ -moz-border-radius: 10px 10px 10px 10px;
+ -webkit-border-radius: 10px 10px 10px 10px;
+  border: 2px solid #ffffff;
+  margin-top: 50px;
+  width: 200px;
+  margin-left: 543px;
+  cursor: pointer;
+}
+.rectangulo:hover {
+  background-color: #088A68;
+}
+/*.fa-download:hover, .descarga:hover{
+  cursor: pointer;
+  color:#18bc9c;
+}*/
+.text5 {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  color: #212529;
+  font-size: 50px;
+  font-weight: 700;
+  margin-left: 477px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.izqLine3 {
+  width: 100px;
+  border: 3px solid #2c3e50;
+  margin-bottom: -26px;
+  margin-left: 660px
+}
+.Contact .fa-star{
+  color: #2c3e50;
+  font-size: 30px;
+  margin-left: 627px;
+  margin-top: 10px;
+}
+.derLine3 {
+  width: 100px;
+  border: 3px solid #2c3e50;
+  margin-left: 515px;
+  margin-top: -20px;
+}
+.nombre, .mail, .cel, .mensaje {
+  display: inline-block;
+  font-size: 15px;
+  margin-left: 300px;
+  margin-top: 60px;
+  border-bottom: 1px solid #E6E6E6;
+}
+.nombre1, .mail1, .cel1, .mensaje1 {
+  width: 700px;
+  position: relative;
+  font-size: 1.5em;
+  border: none;
+  padding-right: 0;
+  padding-left: 0;
+  margin-bottom: 40px;
+  outline: none;
+}
+.mensaje {
+  padding-bottom: 100px;
+}
+button {
+  background-color: #18bc9c;
+  color: white;
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 13px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 300px;
+}
+button:hover {
+  background-color: #088A68;
+}
+.cierre {
+  background-color: #2c3e50;
+  margin-top: 100px;
+}
+.ubicacion, .buscanos, .about, .cierre1 {
+  color: white;
+}
+.ubicacion, .buscanos, .about {
+  display: inline-block;
+}
+h3 {
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.L {
+  margin-top: 0;
+  margin-left: 200px;
+  margin-bottom: 15px;
+}
+.primero {
+  font-size: 20px;
+  margin-left: 180px;
+  margin-right: 0;
+  margin-bottom: 5px;
+}
+.segundo {
+  font-size: 20px;
+  margin-left: 165px;
+  margin-right: 0;
+  margin-top: 0;
+}
+.A {
+  margin-top: 100px;
+  margin-left: 130px;
+  margin-bottom: 5px;
+}
