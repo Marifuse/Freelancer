@@ -11,7 +11,7 @@ body {
   width: 1320px;
   height: 100px;
   display: inline-block;
-  /*position: fixed*/
+  position: fixed;
 }
 .link1 {
   text-decoration: none;
@@ -57,10 +57,9 @@ a {
 }
 .cabecera {
   background-color: #18bc9c;
-  padding-top: 700px;
+  padding-top: 800px;
 }
 .imagen1 {
-  position: relative;
   margin-left: 510px;
   margin-top: -600px;
 }
@@ -266,7 +265,6 @@ a {
 }
 .nombre1, .mail1, .cel1, .mensaje1 {
   width: 700px;
-  position: relative;
   font-size: 1.5em;
   border: none;
   padding-right: 0;
@@ -297,7 +295,90 @@ button:hover {
 .ubicacion, .buscanos, .about, .cierre1 {
   color: white;
 }
-.ubicacion, .buscanos, .about {
+.Columnas {
+  column-count: 3;
+  padding-top: 40px;
+}
+.L {
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 5px;
+  margin-left: 150px;
+}
+.primero {
+  font-size: 20px;
+  margin-left: 130px;
+  margin-right: 0;
+  margin-bottom: 5px;
+}
+.segundo {
+  font-size: 20px;
+  margin-left: 115px;
+  margin-right: 0;
+  margin-top: 0;
+}
+.A {
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-left: 50px;
+}
+.fa-facebook, .fa-google-plus, .fa-twitter, .fa-linkedin, .fa-dribbble {
+  font-size: 23px;
+  border: 2px solid white;
+  width: 20px;
+  height: 20px;
+  border-radius:50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  padding: 15px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.fa-facebook {
+  margin-left: 20px;
+}
+.F {
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-left: 30px;
+}
+.tercero, .cuarto {
+  display: inline-block;
+}
+.tercero {
+  font-size: 20px;
+  margin-top: 0;
+}
+.cuarto {
+  margin-top: 0;
+  margin-left: 100px;
+  font-weight: normal;
+}
+.cuarto {
+  color: #18bc9c;
+}
+.cierre1 {
+  margin-top: 70px;
+  margin-left: 495px;
+  padding-bottom: 50px;
+}
+/*.tercero, .cuarto {
+  display: inline-block;
+}
+.tercero {
+  margin-bottom: 0;
+}
+.cuarto {
+  margin: 0;
+}
+/*.ubicacion, .buscanos, .about {
   display: inline-block;
 }
 h3 {
@@ -308,8 +389,8 @@ h3 {
   display: inline-block;
 }
 .L {
-  margin-top: 0;
-  margin-left: 200px;
+  margin-top: 50px;
+  margin-left: 100px;
   margin-bottom: 15px;
 }
 .primero {
@@ -325,7 +406,7 @@ h3 {
   margin-top: 0;
 }
 .A {
-  margin-top: 100px;
+  margin-top: 0;
   margin-left: 130px;
   margin-bottom: 5px;
-}
+}*/
