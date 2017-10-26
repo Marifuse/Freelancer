@@ -6,6 +6,7 @@ body {
    margin: 0 auto;
    overflow-x: hidden; /*Controla el comportamiento de los contenidos que no caben en su elemento contenedor*/
 }
+/*Barra fija de la página*/
 .BarraFija {
   background-color: #2c3e50;
   width: 1320px;
@@ -19,23 +20,26 @@ body {
   color: white;
   font-size: 35px;
   font-weight: 900;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-left: 50px;
 }
 .list1, .list2, .list3 {
   display: inline-block;
   text-transform: uppercase;
 }
-a {
+.contenedor1 {
+  padding-top: 25px;
+}
+.itemslist .barra{
   text-decoration: none;
   color: white;
   font-size: 20px;
   font-weight: 600;
-  margin-top: 35px;
+  margin-top: -50px;
   float: left;
 }
 .list1 {
-  margin-left: 500px;
+  margin-left: 850px;
 }
 .list2 {
   margin-left: 30px;
@@ -55,6 +59,7 @@ a {
 .itemlist,.list3 a:hover{
   color: #18bc9c;
 }
+/*Cabecera principal de la página con su imagen y titulos*/
 .cabecera {
   background-color: #18bc9c;
   padding-top: 800px;
@@ -104,6 +109,8 @@ a {
 /*.text3, .izqLine1, .derLine1 {
   color: #2c3e50;
 }*/
+
+/*Parte del Portfolio con sus imagenes*/
 .text3{
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
@@ -120,7 +127,7 @@ a {
   margin-bottom: -26px;
   margin-left: 660px
 }
-.Portfolio .fa-star{ /*Estrella 2 no se cambia de color*/
+.Portfolio .fa-star{
   color: #2c3e50;
   font-size: 30px;
   margin-left: 627px;
@@ -139,6 +146,9 @@ a {
   margin-top: 30px;
   cursor: pointer;
 }
+
+/*Parte del About con sus parrafos divididos en dos columnas (sin la función) justificadas porque se ve más ordenado,
+más el botón de descarga*/
 .About {
   background-color: #18bc9c;
   padding-top: 630px;
@@ -228,6 +238,8 @@ a {
   cursor: pointer;
   color:#18bc9c;
 }*/
+
+/*Parte de contactos donde el usuario pone sus datos personales en los respectivos input*/
 .text5 {
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
@@ -288,6 +300,7 @@ button {
 button:hover {
   background-color: #088A68;
 }
+/*Parte del Footer o finalización de la página con datos de ubicación física, redes sociales, y pág web*/
 .cierre {
   background-color: #2c3e50;
   margin-top: 100px;
@@ -349,64 +362,21 @@ button:hover {
   text-transform: uppercase;
   margin-left: 30px;
 }
-.tercero, .cuarto {
-  display: inline-block;
-}
 .tercero {
   font-size: 20px;
   margin-top: 0;
 }
 .cuarto {
   margin-top: 0;
-  margin-left: 100px;
+  /*margin-left: 100px;*/
   font-weight: normal;
-}
-.cuarto {
   color: #18bc9c;
+  text-decoration: none;
 }
 .cierre1 {
   margin-top: 70px;
   margin-left: 495px;
   padding-bottom: 50px;
 }
-/*.tercero, .cuarto {
-  display: inline-block;
-}
-.tercero {
-  margin-bottom: 0;
-}
-.cuarto {
-  margin: 0;
-}
-/*.ubicacion, .buscanos, .about {
-  display: inline-block;
-}
-h3 {
-  font-size: 25px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
-  text-transform: uppercase;
-  display: inline-block;
-}
-.L {
-  margin-top: 50px;
-  margin-left: 100px;
-  margin-bottom: 15px;
-}
-.primero {
-  font-size: 20px;
-  margin-left: 180px;
-  margin-right: 0;
-  margin-bottom: 5px;
-}
-.segundo {
-  font-size: 20px;
-  margin-left: 165px;
-  margin-right: 0;
-  margin-top: 0;
-}
-.A {
-  margin-top: 0;
-  margin-left: 130px;
-  margin-bottom: 5px;
-}*/
+/*Algunas formulas las dejé comentadas puesto que eran ideas que iba planteando en el ejercicio, pero que después fui
+descartando.*/
