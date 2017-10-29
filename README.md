@@ -102,6 +102,8 @@ El contenido de la carpeta trae:
 
 * _UNA CARPETA DOCS_
 
+* _UNA CARPETA FONTS_
+
 * _EL INDEX.HTML (el otro formato que se debía trabajar)_
 
 ***
@@ -121,7 +123,7 @@ etiqueta LINK.
 **CSS**
 
 * Comenzar el trabajo por secciones, desde lo más general a lo más particular para darle estilos (Modificación de las fuentes, tamaños
-de imágenes y letras, colores de fondo y de letras, dar estilo a los input y buttons, entre otros).
+de imágenes y letras, colores de fondo y de letras, color y forma a los íconos, dar estilo a los input y buttons, entre otros).
 * Llamar por clases Padre o Hijo en caso de ser necesario para no generar conflictos.
 * Dejar comentarios separando las secciones que se están trabajando.
 
