@@ -132,5 +132,6 @@ de imágenes y letras, colores de fondo y de letras, color y forma a los íconos
 ## Limitaciones y dificultades
 
 * Una de las dificultades que se presento, fue el Forkeo de a carpeta por medio de GIT, ya que denegó la descarga.
-* Falta de llamado a las clases en algunas etiquetas, los cuales, generaron inconvenientes en la HOJA DE ESTILOS.
+* Falta de llamado a las clases en algunas etiquetas, los cuales, generaron inconvenientes en la HOJA DE ESTILOS puesto que realizaba
+cambios genéricos y no a nivel particular.
 * Esta página es sólo un trabajo replica, el cual, no tiene funciones JS (Maquetado).
